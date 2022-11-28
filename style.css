@@ -74,4 +74,57 @@ header{
     display: none;
 }
 
+/*Home Section*/
+.home{
+    margin-top:25%;
+    position: relative;
+    width: 100%;
+    min-width: 100vh;
+    display: grid;
+    grid-template-columns: 0.2fr 1fr 1 fr;
+    align-items: center;
+    gap: 1rem;
+}
+.home-img{
+    order:3;
+}
+.home-img img{
+    width: 100%;
+}
+.home-text span{
+    font-size: var(--medium-font);
+    font-weight: 500;
+
+}
+.home-text h1{
+    font-size: var(--big-font);
+}
+.home-text h2{
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+.social{
+    display:flex;
+    flex-direction: column;
+}
+.social a{
+    margin-bottom: 1rem;
+    font-size: 22px;
+    color: var(--text-color);
+    padding-top: 25px;
+    transition: background-color 0.5s;
+
+
+}
+.About{
+    height:32em;
+}
+/*hover for social*/
+.social a:hover{
+   /* color: var(--hover)*/
+   background-color: aqua;
+
+
+    
+}
 
